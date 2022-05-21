@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.flex-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: Comic Sans MS;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
